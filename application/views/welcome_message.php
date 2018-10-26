@@ -8,6 +8,9 @@
     <title>首页</title>
 </head>
 <body>
+<h1>欢迎：<?php
+    $user->name
+    ?></h1>
 <?php include 'header.php'
 
 ?>

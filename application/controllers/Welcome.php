@@ -91,6 +91,9 @@ class Welcome extends CI_Controller {
         $this->load->model('User_model');
 
         $result = $this->User_model->get_user_by_name_and_pwd($name,$pwd);
+        $this->load->view('welcom3_message',array(
+            'user'=>$result
+        ));
 
         //将用户信息存到session里面
         $this->session->set_userdata('user',$result);

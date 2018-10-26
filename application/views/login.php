@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>登录</title>
+    <base href="<?php echo site_url();?>">
 </head>
 <body>
-<form action="" method="post">
+<form action="welcome/login_check" method="post">
     <p>
         用户名: <input type="text">
     </p>
