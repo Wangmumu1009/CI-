@@ -8,10 +8,10 @@
 <body>
 <form action="welcome/login_check" method="post">
     <p>
-        用户名: <input type="text">
+        用户名: <input type="text" name="username">
     </p>
     <p>
-        密码: <input type="password">
+        密码: <input type="password" name="pwd1">
     </p>
     <p>
         <input type="submit" value="登录">
